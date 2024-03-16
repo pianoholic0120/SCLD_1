@@ -1,0 +1,60 @@
+|FS4
+D[0] <= FullSubtractor1:inst3.D
+D[1] <= FullSubtractor1:inst2.D
+D[2] <= FullSubtractor1:inst1.D
+D[3] <= FullSubtractor1:inst.D
+D[4] <= FullSubtractor1:inst.Bo
+A[0] => FullSubtractor1:inst3.x
+A[1] => FullSubtractor1:inst2.x
+A[2] => FullSubtractor1:inst1.x
+A[3] => FullSubtractor1:inst.x
+B[0] => FullSubtractor1:inst3.y
+B[1] => FullSubtractor1:inst2.y
+B[2] => FullSubtractor1:inst1.y
+B[3] => FullSubtractor1:inst.y
+
+
+|FS4|FullSubtractor1:inst3
+D <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+x => inst.IN0
+x => inst2.IN0
+y => inst.IN1
+y => inst4.IN1
+Bi => inst1.IN1
+Bi => inst5.IN1
+Bo <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FS4|FullSubtractor1:inst2
+D <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+x => inst.IN0
+x => inst2.IN0
+y => inst.IN1
+y => inst4.IN1
+Bi => inst1.IN1
+Bi => inst5.IN1
+Bo <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FS4|FullSubtractor1:inst1
+D <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+x => inst.IN0
+x => inst2.IN0
+y => inst.IN1
+y => inst4.IN1
+Bi => inst1.IN1
+Bi => inst5.IN1
+Bo <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FS4|FullSubtractor1:inst
+D <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+x => inst.IN0
+x => inst2.IN0
+y => inst.IN1
+y => inst4.IN1
+Bi => inst1.IN1
+Bi => inst5.IN1
+Bo <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+

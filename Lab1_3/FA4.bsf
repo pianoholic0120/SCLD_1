@@ -1,0 +1,127 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 64 64 416 160)
+	(text "FA4" (rect 5 0 25 12)(font "Arial" ))
+	(text "inst" (rect 8 80 25 92)(font "Arial" ))
+	(port
+		(pt 328 0)
+		(input)
+		(text "B[0]" (rect 320 24 334 46)(font "Arial" (font_size 8))(vertical))
+		(text "B[0]" (rect 320 24 334 46)(font "Arial" (font_size 8))(vertical))
+		(line (pt 328 0)(pt 328 16))
+	)
+	(port
+		(pt 288 0)
+		(input)
+		(text "B[1]" (rect 280 24 294 46)(font "Arial" (font_size 8))(vertical))
+		(text "B[1]" (rect 280 24 294 46)(font "Arial" (font_size 8))(vertical))
+		(line (pt 288 0)(pt 288 16))
+	)
+	(port
+		(pt 248 0)
+		(input)
+		(text "B[2]" (rect 240 24 254 46)(font "Arial" (font_size 8))(vertical))
+		(text "B[2]" (rect 240 24 254 46)(font "Arial" (font_size 8))(vertical))
+		(line (pt 248 0)(pt 248 16))
+	)
+	(port
+		(pt 208 0)
+		(input)
+		(text "B[3]" (rect 200 24 214 46)(font "Arial" (font_size 8))(vertical))
+		(text "B[3]" (rect 200 24 214 46)(font "Arial" (font_size 8))(vertical))
+		(line (pt 208 0)(pt 208 16))
+	)
+	(port
+		(pt 160 0)
+		(input)
+		(text "A[0]" (rect 152 24 166 47)(font "Arial" (font_size 8))(vertical))
+		(text "A[0]" (rect 152 24 166 47)(font "Arial" (font_size 8))(vertical))
+		(line (pt 160 0)(pt 160 16))
+	)
+	(port
+		(pt 128 0)
+		(input)
+		(text "A[1]" (rect 120 24 134 47)(font "Arial" (font_size 8))(vertical))
+		(text "A[1]" (rect 120 24 134 47)(font "Arial" (font_size 8))(vertical))
+		(line (pt 128 0)(pt 128 16))
+	)
+	(port
+		(pt 88 0)
+		(input)
+		(text "A[2]" (rect 80 24 94 47)(font "Arial" (font_size 8))(vertical))
+		(text "A[2]" (rect 80 24 94 47)(font "Arial" (font_size 8))(vertical))
+		(line (pt 88 0)(pt 88 16))
+	)
+	(port
+		(pt 48 0)
+		(input)
+		(text "A[3]" (rect 40 24 54 47)(font "Arial" (font_size 8))(vertical))
+		(text "A[3]" (rect 40 24 54 47)(font "Arial" (font_size 8))(vertical))
+		(line (pt 48 0)(pt 48 16))
+	)
+	(port
+		(pt 176 96)
+		(output)
+		(text "Co" (rect 168 45 182 60)(font "Arial" (font_size 8))(vertical))
+		(text "Co" (rect 168 45 182 60)(font "Arial" (font_size 8))(vertical))
+		(line (pt 176 96)(pt 176 80))
+	)
+	(port
+		(pt 328 96)
+		(output)
+		(text "S[0]" (rect 320 45 334 67)(font "Arial" (font_size 8))(vertical))
+		(text "S[0]" (rect 320 45 334 67)(font "Arial" (font_size 8))(vertical))
+		(line (pt 328 96)(pt 328 80))
+	)
+	(port
+		(pt 288 96)
+		(output)
+		(text "S[1]" (rect 280 45 294 67)(font "Arial" (font_size 8))(vertical))
+		(text "S[1]" (rect 280 45 294 67)(font "Arial" (font_size 8))(vertical))
+		(line (pt 288 96)(pt 288 80))
+	)
+	(port
+		(pt 248 96)
+		(output)
+		(text "S[2]" (rect 240 45 254 67)(font "Arial" (font_size 8))(vertical))
+		(text "S[2]" (rect 240 45 254 67)(font "Arial" (font_size 8))(vertical))
+		(line (pt 248 96)(pt 248 80))
+	)
+	(port
+		(pt 208 96)
+		(output)
+		(text "S[3]" (rect 200 45 214 67)(font "Arial" (font_size 8))(vertical))
+		(text "S[3]" (rect 200 45 214 67)(font "Arial" (font_size 8))(vertical))
+		(line (pt 208 96)(pt 208 80))
+	)
+	(drawing
+		(line (pt 112 24)(pt 64 48))
+		(line (pt 64 48)(pt 152 48))
+		(line (pt 112 24)(pt 112 64))
+		(line (pt 216 64)(pt 216 24))
+		(line (pt 216 24)(pt 304 24))
+		(line (pt 304 24)(pt 304 64))
+		(line (pt 216 48)(pt 304 48))
+		(rectangle (rect 16 16 336 80))
+	)
+)
